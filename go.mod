@@ -1,4 +1,4 @@
-module github.com/opensourceways/robot-gitee-assign-issue
+module github.com/opensourceways/robot-github-openeuler-lifecycle
 
 go 1.16
 
