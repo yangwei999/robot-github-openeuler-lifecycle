@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	sdk "github.com/google/go-github/v36/github"
-	"github.com/opensourceways/community-robot-lib/config"
-	gc "github.com/opensourceways/community-robot-lib/githubclient"
-	framework "github.com/opensourceways/community-robot-lib/robot-github-framework"
-	"github.com/sirupsen/logrus"
 	"regexp"
+
+	sdk "github.com/google/go-github/v36/github"
+	gc "github.com/opensourceways/robot-github-lib/client"
+	"github.com/opensourceways/robot-github-lib/framework"
+	"github.com/opensourceways/server-common-lib/config"
+	"github.com/sirupsen/logrus"
 )
 
 const (
